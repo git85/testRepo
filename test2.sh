@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-echo -e "This is for second script"
+echo -e "This is for indexer"
