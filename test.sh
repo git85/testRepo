@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo -e "Hello World d"
+echo -e "Hello World date"
