@@ -13,7 +13,7 @@ TWT=0
  while [ ${TWT} -lt ${MAX_RETRIES} ];
     do
     sleep 1
-    echo "Running test loop" |tee -a  /tmp/test.log
+    echo "Running test loop demo" |tee -a  /tmp/test.log
 let TWT=${TWT}+1
       if [ ${TWT} -ge ${MAX_RETRIES} ]; then
         exitCode=0;
