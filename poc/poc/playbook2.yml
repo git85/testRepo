@@ -1,0 +1,7 @@
+
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: Copy content to file
+    copy: content="Hello World testing \n" dest=/tmp/poc.txt
